@@ -47,7 +47,7 @@ GeoLearn is an interactive geography learning platform built with React that hel
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Esw4r/Geo-Learn.git
    cd geoLearn
    ```
 
