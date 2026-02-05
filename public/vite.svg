@@ -1,0 +1,28 @@
+<svg
+  width="64"
+  height="64"
+  viewBox="0 0 64 64"
+  xmlns="http://www.w3.org/2000/svg"
+  aria-label="Globe icon"
+>
+  <circle cx="32" cy="32" r="30" fill="#4DA6FF" />
+  <path
+    d="M38 18
+       C42 20, 46 22, 48 26
+       C50 30, 48 34, 44 36
+       C40 38, 38 42, 34 44
+       C30 46, 26 44, 24 40
+       C22 36, 24 32, 28 30
+       C32 28, 34 24, 36 20 Z"
+    fill="#3CB371"
+  />
+  <ellipse cx="44" cy="44" rx="5" ry="3" fill="#3CB371" />
+  <circle
+    cx="32"
+    cy="32"
+    r="30"
+    fill="none"
+    stroke="#1E3A8A"
+    stroke-width="2"
+  />
+</svg>
