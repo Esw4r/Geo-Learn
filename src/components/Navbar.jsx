@@ -12,6 +12,14 @@ export default function Navbar() {
 
       {/* RIGHT SIDE BRAND */}
       <div className="nav-right">
+        <a
+          href="https://esw4r.github.io/count-n-compare/"
+          className="app-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          🎮 Count-N-Compare
+        </a>
         <span className="brand">🌏GeoLearn</span>
       </div>
     </nav>

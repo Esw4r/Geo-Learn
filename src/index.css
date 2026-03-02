@@ -210,6 +210,32 @@ body {
   letter-spacing: 0.5px;
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.app-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 14px;
+  background: #dbeafe;
+  color: #1d4ed8;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.15s ease;
+  white-space: nowrap;
+}
+
+.app-link:hover {
+  background: #bfdbfe;
+  transform: translateY(-1px);
+}
+
 /* ============================================
    TEST FORM STYLES
    ============================================ */
