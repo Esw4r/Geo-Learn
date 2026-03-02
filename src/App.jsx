@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Training from "./pages/Training";
 import Practice from "./pages/Practice";
@@ -9,7 +9,7 @@ import { ProgressProvider } from "./context/ProgressContext";
 function App() {
   return (
     <ProgressProvider>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Dashboard />} />
@@ -17,7 +17,7 @@ function App() {
           <Route path="/practice" element={<Practice />} />
           <Route path="/test" element={<Test />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </ProgressProvider>
   );
 }
